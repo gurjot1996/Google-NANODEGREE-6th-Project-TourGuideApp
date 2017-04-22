@@ -1,7 +1,11 @@
-#TourGuideApp
-Tour Guide app. This is an app with multiple screens, each of which lists a kind of attraction for a given city, national park, or historical monument. For instance, an app focused on Mountain View, CA might include a list of startup headquarters as well as a list of restaurants and a list of parks.
+#Chandigarh The City Beautiful - TourGuideApp
+Tour Guide app. This is an app with multiple screens, each of which lists 
+1)Tourist Places-such as sukhna lake, rose garden etc.
+2)Hotels - such as jw mariott,taj etc.
+3)Hospitals -such as Fortis,PGI etc.
+4)Malls -such as Elante,etc
 
-Once you've decided on the location you'd like to show off, you'll want to build the structure of your app. Using the skills from the Miwok app, you'll make multiple screens, each containing a list. You may choose to use explicit intents to move between activities.
+4 Multiple Activities,Use of intents,Custom Class,Custom Arrayadapter
 
 What will I learn?
 This project is about combining various ideas and skills we’ve been practicing throughout the course. They include:
