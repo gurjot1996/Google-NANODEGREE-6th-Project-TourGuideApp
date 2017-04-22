@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.tourguideapp.MainActivity">
+        <TextView
+            style="@style/chandigarh"
+            android:text="CHANDIGARH-THE CITY BEAUTIFUL"
+            />
+        <ImageView
+            style="@style/logo"
+            android:src="@drawable/openhand"
+            />
+
+        <LinearLayout
+            style="@style/layouts"
+            android:layout_height="0dp">
+
+            <ImageView
+                style="@style/categoryimages"
+                android:id="@+id/hotels"
+                android:src="@drawable/hotels"/>
+
+            <ImageView
+                style="@style/categoryimages"
+                android:id="@+id/tourists"
+                android:src="@drawable/places"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/layouts"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/categoryimages"
+                android:id="@+id/hospitals"
+                android:src="@drawable/hospital"
+                />
+
+            <ImageView
+                style="@style/categoryimages"
+                android:id="@+id/malls"
+                android:src="@drawable/mall"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
